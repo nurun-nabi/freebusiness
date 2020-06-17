@@ -234,6 +234,38 @@ p {
 }
 
 /* explore area design end */
+/* explore area start */
+
+.discover-area{
+    background: #32383d;
+    padding: 50px;
+}
+.discover-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+
+.custom-btn2 {
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 8px 30px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.custom-btn2:hover {
+    color: #ffffff;
+}
+/* explore area end */
 
 
 /*font-family: 'Open Sans', sans-serif;
