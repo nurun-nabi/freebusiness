@@ -214,6 +214,7 @@ p {
     padding: 0 16%;
 
 }
+
 .custom-btn {
     background: transparent;
     border: 2px solid #7f1a38;
@@ -236,13 +237,14 @@ p {
 /* explore area design end */
 /* explore area start */
 
-.discover-area{
+.discover-area {
     background: #32383d;
     padding: 50px;
 }
-.discover-text h3{
+
+.discover-text h3 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300; 
+    font-weight: 300;
     color: #ffffff;
     font-size: 30px;
 }
@@ -265,7 +267,78 @@ p {
 .custom-btn2:hover {
     color: #ffffff;
 }
+
 /* explore area end */
+/* testimonial area design start */
+.testimonial-area {
+    padding: 70px;
+    background-color: #09bbdb;
+}
+
+.testimonial-top i {
+    font-size: 40px;
+    color: #117486;
+    padding-bottom: 40px;
+}
+
+.testimonial-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: initial;
+    font-style: italic;
+    color: #ffffff;
+    padding: 0 10px;
+    position: relative;
+}
+
+.testimonial-text span {
+    color: #117486;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: none !important;
+    border-radius: 50%;
+    border: 1px solid #884e4e;
+    margin-bottom: 10px;
+
+}
+
+.carousel-indicators {
+    top: 107%;
+    margin-bottom: 3%;
+}
+
+.carousel-indicators li:hover {
+    background-color: #ffffff;
+}
+
+.carousel-indicators li:active {
+    background-color: #ffffff;
+}
+
+/* testimonial area design end */
+/* footer area start */
+.copyrite {
+    background: #242020;
+    padding: 50px 0;
+}
+
+.copyrite p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+/* footer area end */
 
 
 /*font-family: 'Open Sans', sans-serif;
