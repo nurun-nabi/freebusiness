@@ -11,9 +11,11 @@ body {
     font-family: 'Raleway', sans-serif;
     height: 3000px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 a {
     text-decoration: none;
 }
@@ -35,6 +37,120 @@ p {
 .clear {
     overflow: hidden;
 }
+
+/* header and menu desing start */
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18;
+    text-transform: capitalize;
+    color: #404040 !important;
+
+}
+
+.menu ul li a:after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #404040;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
+}
+
+.btn-custom {
+    background-color: #7f1a38;
+    border: 2px solid #7f1a38;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: 0.5s;
+    margin-top: -4px;
+}
+
+.btn-custom:hover {
+    background-color: transparent;
+}
+
+/* header and menu desing end */
+/* banner area desing start */
+.banner-area {
+    background: url(../img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.banner-text h2 {
+    font-family: serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.head-design {
+    color: #7f1a38;
+}
+
+.banner-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.form-design {
+    background-color: #7f1a38;
+    opacity: 0.7;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+
+.form-design input {
+    border-radius: 0;
+    padding: 10px 10px;
+    margin-right: 0;
+
+}
+
+.form-control {
+    width: 100%;
+    margin-top: 8%;
+}
+
+.btn-custom-2 {
+    background-color: #ae2c52;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 6px 40px;
+    margin-top: 8%;
+    width: 100%;
+
+}
+
+.form-after {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+/* banner area desing end */
 
 
 /*font-family: 'Open Sans', sans-serif;
