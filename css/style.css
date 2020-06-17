@@ -113,13 +113,13 @@ p {
 .form-design {
     background-color: #7f1a38;
     opacity: 0.7;
-    padding: 2px 12px;
+    padding: 2px 25px;
     border-radius: 5px;
 }
 
 .form-design input {
     border-radius: 0;
-    padding: 10px 10px;
+    padding: 10px 15px;
     margin-right: 0;
 
 }
@@ -142,6 +142,10 @@ p {
 
 }
 
+.form-design .col-lg-4 {
+    padding: 0 5px;
+}
+
 .form-after {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -151,6 +155,85 @@ p {
 }
 
 /* banner area desing end */
+/* about us area desing start */
+.about-us-area {
+    padding-top: 65px;
+}
+
+.about-icon i {
+    font-size: 80px;
+    padding-bottom: 40px;
+}
+
+.about-service-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: initial;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.about-service-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #9b9b9b;
+    padding: 0 7%;
+}
+
+.line-design {
+    border-top: 1px solid #eaeaea;
+    margin-top: 60px;
+    margin-bottom: 0;
+
+}
+
+/* about us area desing end */
+/* explore area design start */
+.explore-area {
+    padding: 70px 0;
+    background: #f9f9f9;
+}
+
+.explore-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: initial;
+    color: #404040;
+    padding-bottom: 40px;
+}
+
+.explore-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: initial;
+    color: #404040;
+    padding: 0 16%;
+
+}
+.custom-btn {
+    background: transparent;
+    border: 2px solid #7f1a38;
+    padding: 8px 30px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7f1a38;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.custom-btn:hover {
+    color: #7f1a38;
+}
+
+/* explore area design end */
 
 
 /*font-family: 'Open Sans', sans-serif;

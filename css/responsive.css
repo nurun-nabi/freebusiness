@@ -20,7 +20,7 @@
     }
 
     .form-design {
-        padding: 15px 12px;
+        padding: 15px 24px;
     }
 
     .banner-text h2 {
@@ -29,6 +29,28 @@
 
     .banner-text p {
         font-size: 14px;
+    }
+    .explore-content h2 {
+        font-size: 33px;
+        padding-bottom: 30px;
+    }
+    .explore-content p {
+        font-size: 12px;
+    }
+    .about-icon i {
+        font-size: 50px;
+        padding-bottom: 31px;
+    }
+    .about-service-text h3 {
+      font-size: 17px;
+       
+    }
+    .about-service-text p {
+        font-size: 12px;
+    }
+    .custom-btn {
+        padding: 8px 22px;
+         font-size: 14px;
     }
 
 }
